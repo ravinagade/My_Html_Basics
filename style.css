@@ -1,0 +1,37 @@
+body{
+margin: 0;
+padding: 0;
+font-family:sans-serif;
+background: #a8c1c9;
+}
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+    background: #684141;
+    text-align: center;
+}
+
+button[type=button]{
+    background-color:#4f7947 ;
+    color:black;
+    padding: 12px 20px;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+    float:inline-start;
+}
+
+input[type=reset]{
+    background-color:#9e844c ;
+    color:black;
+    padding: 12px 20px;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+    float:inline-start;
+}

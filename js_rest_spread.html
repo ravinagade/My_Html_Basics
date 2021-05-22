@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JS Rest Parameter and Spread Operator</title>
+</head>
+<body>
+    <script>
+        //  Rest Parameter
+        function displayData(...names){
+            return names
+        }
+        console.log(displayData('John','Peter'))
+
+
+        // Spread Operator
+
+        function addValues(num1,num2,num3){
+            return num1+num2+num3
+        }
+        let values=[50,60,70]
+        console.log(addValues(...values));
+
+
+        //Destructing
+        //a)Assignment destructuring
+        //b)Object Destructuring
+
+        //Assignment Destructuring
+        var fruits=['Apple','Orange','Grapes','Banana']
+        let [a1,a2,a3,a4] =fruits
+        console.log(a1);
+        console.log(a2);
+
+        //Object Destructuring
+        var person={
+            name:"John",
+            city:"Pune",
+            salary:"75000"
+        }
+        let {name,city,salary}=person
+        console.log(name);
+        console.log(city);
+        console.log(salary);
+    </script>
+    
+</body>
+</html>

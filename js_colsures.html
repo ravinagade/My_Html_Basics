@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>JS Closures</title>
+
+</head>
+<body>
+    <script>
+
+        // Closures: Closure is a function that references variable in the outer scope.
+
+        //let firstName="John" // Global
+
+        //function checkName(){
+        //  let city="Pune" // Local
+        //  console.log(firstName);
+        //}
+        //checkName()
+        
+
+        //function displayName(){
+            //let a="India"
+
+            //function innerfunction(){
+              //  console.log(a);
+            //}
+        //innerfunction()
+          //  return innerfunction
+        //}
+         //let checkFunction=displayName()
+         //checkFunction()
+
+         function displayFullName(Name1){
+             return function(Name2){
+                 return Name1+' '+Name2
+             }
+         }
+
+         let Name1=displayFullName('John')
+         console.log(Name1('Peter'));
+        
+    </script>
+    
+</body>
+</html>

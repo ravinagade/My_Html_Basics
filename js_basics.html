@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JS Basics</title>
+</head>
+<body>
+    <h1>JS Basics</h1>
+    <button type="button" onclick="alert('Welcome to JS Program')">Check</button>
+
+    <script>
+        function showAlert(){
+           alert('Welcome to JS')
+        }
+
+        //var, let, const
+
+      // let myvar='JS'
+       //myvar='Javascript'
+       //console.log(myvar);
+
+       //const PI=3.14
+       //PI=3
+       //console.log(PI);
+
+       //for (var i= 0; i < 5; i++) {
+         //  console.log(i);  
+       //}
+       //console.log(i);
+
+
+       // DataTypes: a)Primitive b)Composite c)Special
+       // a)Primitive: Number, String, Boolean
+       // b)Composite: Array, function, Object
+       // c)Special: NaN, Undefined
+
+       var a=10
+       var b="20"
+       var result=a+b
+       var result1=b-a
+       console.log(result);
+       console.log(result1);
+
+       var x=0.1
+       var y=0.2
+       var z=((x*10)+(y*10))/10
+       console.log(z);
+
+       var x1=25
+       var y1=30
+       var total=x1+y1
+       console.log(`Total of ${x1} and ${y1} is: ${total}`);
+
+       var isActive=false
+
+       // functions
+
+       // function addNos(num1,num2){
+       //    var sum=num1+num2
+       //      console.log("Sum is: "+sum);
+       //   return sum
+       // }
+
+       // console.log(addNos(20,50));
+
+       function addNos(num1,num2){
+           return num1+num2
+       }
+       console.log(addNos(40,50));
+
+      function showData(){
+          console.log("Helllooooo");
+      }
+      showData()
+
+      var showData=function(){
+          console.log("Helllooooo");
+      }
+      showData()
+
+      var showData=()=>{
+          console.log("Helllooooo");
+      }
+      showData()
+
+
+   
+
+
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Registration</h1>
+
+    
+    <form>
+        <fieldset>
+            <legend>Registration:</legend>
+        
+    
+        <label for="fname">First Name:</label><br>
+        <input type="text" placeholder="FirstName" required>
+        <br><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" placeholder="LastName" required>
+        <br><br>
+        
+        <label for="email">Email Id:</label><br>
+        <input type="text" placeholder="Email" required>
+        <br><br>
+
+        <label for="country">Country:</label><br>
+        <select id="country" name="country">
+            <option value="select">---Select---</option>
+            <option value="country_1">India</option>
+            <option value="country_2">America</option>
+            <option value="country_3">England</option>
+            <option value="country_4">Australia</option>
+            <option value="country_5">South Africa</option>
+            <option value="country_6">West Indies</option>
+            <option value="country_7">China</option>
+            <option value="country_8">Japan</option>
+            <option value="country_9">Nepal</option>
+            <option value="country_10">SriLanka</option>
+        </select>
+        <br><br>
+        
+        <label for="city">City:</label><br>
+        <select id="city" name="city">
+            <option value="select">---Select---</option>
+            <option value="city_1">Mumbai</option>
+            <option value="city_2">Pune</option>
+            <option value="city_3">Aurangabad</option>
+            <option value="city_4">Kolkata</option>
+            <option value="city_5">Jaipur</option>
+            <option value="city_6">Patna</option>
+            <option value="city_7">Delhi</option>
+            <option value="city_8">Vita</option>
+        </select>
+        <br><br>
+
+        <label for="state">State:</label><br>
+        <select id="state" name="state">
+            <option value="select">---Select---</option>
+            <option value="state_1">Maharashtra</option>
+            <option value="state_2">Hyderabad</option>
+            <option value="state_3">Karnataka</option>
+            <option value="state_4">Aasam</option>
+            <option value="state_5">Gujrat</option>
+            <option value="state_6">Panjab</option>
+            <option value="state_7">Goa</option>
+            <option value="state_8">Uttarakhand</option>
+            <option value="state_9">Tamilnadu</option>
+            <option value="state_10">Hariyana</option>
+        </select>
+        <br><br>
+        
+        <label for="birthdate">Date of Birth:</label><br>
+        <input type="date" placeholder="Birth Date" required>
+        <br><br>
+        
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br>
+        <br>
+
+        <label for="CollegeName">Choose a College:</label><br>
+        <select id="collegeName" name="collegeName" required>
+            <option value="select">---Select---</option>
+            <option value="College_1">Adarsh Institute Of Technology, Vita</option>
+            <option value="college_2">Adarsh College of Pharmacy, Vita</option>
+            <option value="College_3">Balwant College, Vita</option>
+            <option value="Collge_4">Modern College, Vita</option>
+        </select><br>
+        <br>
+
+        <label for="courses">Choose a Course</label><br>
+        <select id="course" name="course" required>
+            <option value="select">---Select---</option>
+            <option value="course1">Engineering</option>
+            <option value="cours23">Pharmacy</option>
+            <option value="course3">Agriculture</option>
+            <option value="course4">Doctorate</option>
+            <option value="course4">Information Technology</option>
+            <option value="course4">Law</option>
+        </select><br>
+        <br>
+
+        <label for="myfile">Upload your Resume</label><br>
+        <input type="file" id="myfile" name="myfile" required><br>
+        <br>
+
+        <label for="img">Upload Your Photo</label><br>
+        <input type="file" id="img" name="img" accept="image/*" required><br>
+        <br>
+
+        <button type="button" onclick="alert('Hello World...!!!')">Submit</button>
+
+        <input type="reset">
+
+    </fieldset>
+
+
+    </form>
+    
+</body>
+</html>

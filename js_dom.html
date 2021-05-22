@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>JS DOM</title>
+
+</head>
+<body>
+    <h1>Heading</h1>
+    <p id="p1id">Paragraph</p>
+    <p id="pid"></p>
+    <p id="p2id"></p>
+    <button type="button" onclick="showData()">Click</button>
+
+    <script>
+        function showData(){
+            document.getElementById("p1id").innerHTML="Replaced Paragraph"
+            document.getElementById("pid").innerHTML="New Paragraph"
+            document.getElementById("pid").innerHTML="Third Paragraph"
+        }
+
+    </script>
+    
+</body>
+</html>
